@@ -32,3 +32,5 @@ export class NoRunLog extends Error {
 }
 
 export type ReadNight = (runsDir: string, night: string) => NightDigest;
+
+export { readNight } from './read.js';
